@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pusherPurpleDark">#030D4F</color>
+    <color name="pusherPurpleLight">#F4F3FF</color>
+    <color name="pale">#A0A0A0</color>
+
+    <color name="pendingBackground">#A0A0A0</color>
+    <color name="failedBackground">#FFA0A0</color>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Chatkit Quick Start</string>
+
+    <string name="messageTextSample">This is a sample message</string>
+    <string name="senderNameSample">Alice Antelope</string>
+    <string name="dateSample">HH:mm:ss EEE dd MMM</string>
+
+    <string name="avatarDescription">User avatar</string>
+    <string name="typeHere">Type a new message</string>
+    <string name="send">Send</string>
+</resources>

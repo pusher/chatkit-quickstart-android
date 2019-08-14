@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="messageBackgroundPadding">10dp</dimen>
+    <dimen name="messageBackgroundCornerRadius">7dp</dimen>
+    <dimen name="messageMarginBottom">5dp</dimen>
+
+    <dimen name="messagePaddingToAvatar">5dp</dimen>
+    <dimen name="messagePaddingToScreenEdge">50dp</dimen>
+
+    <dimen name="messageTextSize">18sp</dimen>
+    <dimen name="supportingTextSize">12sp</dimen>
+
+    <dimen name="senderPadding">10dp</dimen>
+
+    <dimen name="avatarSize">40dp</dimen>
+    <dimen name="avatarMarginToMessage">5dp</dimen>
+    <dimen name="avatarMarginToScreenEdge">10dp</dimen>
+</resources>

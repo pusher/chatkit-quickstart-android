@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingStart="@dimen/messagePaddingToScreenEdge"
+            android:paddingEnd="@dimen/messagePaddingToAvatar">
+
+        <TextView
+                android:id="@+id/lblSender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginBottom="@dimen/messageMarginBottom"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/senderPadding"
+                android:paddingEnd="@dimen/senderPadding"
+                android:text="@string/senderNameSample"
+                android:textColor="@color/pale"
+                android:textSize="@dimen/supportingTextSize" />
+
+        <TextView
+                android:id="@+id/lblMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/messageMarginBottom"
+                android:gravity="center_vertical"
+                android:text="@string/messageTextSample"
+                android:textSize="@dimen/messageTextSize"
+                android:layout_gravity="end"
+                android:background="@drawable/rounded_background_failed"
+                android:textColor="@color/pusherPurpleLight" />
+
+    </LinearLayout>
+
+    <ImageView
+            android:id="@+id/imgAvatar"
+            android:layout_width="@dimen/avatarSize"
+            android:layout_height="@dimen/avatarSize"
+            android:layout_marginStart="@dimen/avatarMarginToMessage"
+            android:layout_marginEnd="@dimen/avatarMarginToScreenEdge"
+            android:contentDescription="@string/avatarDescription"
+            android:layout_gravity="bottom" />
+
+</LinearLayout>
