@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/failedBackground"/>
+
+    <padding android:left="@dimen/messageBackgroundPadding"
+            android:top="@dimen/messageBackgroundPadding"
+            android:right="@dimen/messageBackgroundPadding"
+            android:bottom="@dimen/messageBackgroundPadding" />
+
+    <corners android:bottomRightRadius="1dp"
+            android:bottomLeftRadius="@dimen/messageBackgroundCornerRadius"
+            android:topLeftRadius="@dimen/messageBackgroundCornerRadius"
+            android:topRightRadius="@dimen/messageBackgroundCornerRadius" />
+</shape>
